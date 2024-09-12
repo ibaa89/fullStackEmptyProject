@@ -1,0 +1,12 @@
+SH# Mysql Live
+DB_HOST=moodle_db                      
+# DB_HOST=127.0.0.1                           #Обратите внимание, что если вы используете код из docker, вам нужно вызвать контейнер из порта операционной системы, и в нашей #ситуации вы должны вызвать localhost
+DB_DRIVER=mysql                          # Используется для создания JWT. Может быть что угодно
+DB_USER=SuperAdmin
+DB_PASSWORD=Super!@#Admin
+DB_NAME=moodle
+DB_PORT=3306                
+      
+MYSQL_ROOT_PASSWORD=Super!@#Admin
+MYSQL_USER=SuperAdmin
+MYSQL_PASSWORD=Super!@#Admin
